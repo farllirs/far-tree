@@ -1,0 +1,46 @@
+{
+  "name": "farllir-tree",
+  "version": "1.1.0",
+  "description": "Una versión mejorada del comando tree para Node.js con soporte para múltiples idiomas y reportes en Markdown",
+  "main": "lib/index.js",
+  "bin": {
+    "farllir-tree": "./bin/farllir-tree.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node ./bin/farllir-tree.js"
+  },
+  "keywords": [
+    "tree",
+    "directory",
+    "structure",
+    "cli",
+    "markdown",
+    "report",
+    "filesystem",
+    "farllir",
+    "file-explorer"
+  ],
+  "author": "farllirs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farllirs/far-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/farllirs/far-tree/issues"
+  },
+  "homepage": "https://github.com/farllirs/far-tree#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+} 

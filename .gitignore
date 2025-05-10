@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de cobertura
+coverage/
+
+# Directorios de construcción
+dist/
+build/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de configuración local
+far-tree.config.json
+
+# Archivos temporales
+*.log
+*.tmp 
